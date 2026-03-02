@@ -42,7 +42,7 @@ $$
 \text{Head}(h) = \text{softmax}\left(\frac{Q_h K_h^T}{\sqrt{d_k}}\right) V_h
 $$
 
-**KV cache size** = $H \times \text{sequence\_length} \times d_{head}$
+**KV cache size** = $H \times \text{seq} \times d_{head}$
 
 ## The Problem
 
@@ -72,7 +72,7 @@ $$
 \text{Head}(h) = \text{softmax}\left(\frac{Q_h K^T}{\sqrt{d_k}}\right) V
 $$
 
-**KV cache size** = $1 \times \text{seq\_length} \times d_{head}$
+**KV cache size** = $1 \times \text{seq} \times d_{head}$
 
 **Why do this?**
 - Saves memory
