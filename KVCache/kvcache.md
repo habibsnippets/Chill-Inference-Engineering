@@ -126,3 +126,6 @@ To store the address of the block we use a **block table** that stores the addre
 ### 4. Prompt Caching
 
 Need to study — [paper](https://proceedings.mlsys.org/paper_files/paper/2024/file/a66caa1703fe34705a4368c3014c1966-Paper-Conference.pdf)
+
+
+--------------------------------------------------------------------------
